@@ -22,10 +22,10 @@ const Explore = () => {
         <TypingText title="| The World" textStyles="text-center" />
         <TitleText
           title={
-            <>
+            <div>
               choose the world you want <br className="md:block hidden" /> to
               explore{" "}
-            </>
+            </div>
           }
           textStyles="text-center"
         />
